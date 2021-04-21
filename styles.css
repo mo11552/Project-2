@@ -1,0 +1,68 @@
+body {
+	font-family: Georgia;
+	line-height: 2;
+}
+
+li {
+	margin-right: 20px;
+}
+
+a {
+	color: white;
+}
+
+.navbar-brand {
+	font-size: 14px;
+	font-weight: 200px;
+}
+
+.navbar {
+	background-color: teal;
+	color: white;
+	font-family: Arial;	
+	padding:20px;
+	margin: -8px;
+	font-size: 12px;
+}
+
+.seconddiv {
+	font-size: 14px;
+	text-align: center;
+	line-height: 19px;
+	background-color: grey;
+	padding: 50px 25px 0px 20px;
+	border: 60px solid orange;
+	margin: -8px;
+}
+
+.thirddiv {
+	font-size: 12px;
+	background-color: #F0FFFF;
+	margin: -8px;
+	padding: 50px 25px 0px 20px;
+}
+
+.lastdiv {
+	font-size: 10px;
+	background-color: #FFEBCD;
+	margin: -8px;
+	padding: 50px 25px 0px 20px;
+}
+
+.image {
+	padding: 0px 25px 10px 10px;
+}
+
+/* For mobile phones: */
+
+@media only screen and (max-width: 600px) {
+	[class*="col-"] {
+		width: 100%;
+	}
+
+	body {
+		background-color: black;
+		color: black;
+		font-size: 10px;
+	}
+}
